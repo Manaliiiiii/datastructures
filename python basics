@@ -1,0 +1,23 @@
+Creating a Tuple
+In Python, tuples are created by placing a sequence of values separated by ‘comma’ with or without the use of parentheses for grouping the data sequence.
+
+Note: Creation of Python tuple without the use of parentheses is known as Tuple Packing.  
+
+
+
+
+Tuple1 = ()
+print("Initial empty Tuple: ")
+print(Tuple1)
+ 
+# Creating a Tuple
+# with the use of string
+Tuple1 = ('Geeks', 'For')
+print("\nTuple with the use of String: ")
+print(Tuple1)
+ 
+# Creating a Tuple with
+# the use of list
+list1 = [1, 2, 4, 5, 6]
+print("\nTuple using List: ")
+print(tuple(list1))
